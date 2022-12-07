@@ -1,0 +1,37 @@
+
+
+button {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #dec69f;
+    height: 50px;
+  }
+  
+  button:hover {
+    background-color: #dec69f;
+    color: white;
+  }
+  
+body {
+    text-align: center;
+    color: rgb(231, 220, 220);
+    background-image: url(img/nubes\ Chico.jpeg);
+    font-size: 1.3rem;
+    line-height: 1.5;
+    margin: 0;
+    justify-content: center;
+}
+p{
+    background-color: #dec69f;
+    color: white;
+}
+
+#titulo {
+    color: rgb(255, 243, 234);
+    font-style: italic;
+font-family: fantasy;
+}
+
+#imgdiv {
+    width: 70vw;
+}

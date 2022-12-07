@@ -1,0 +1,47 @@
+body {
+    background-image: url(img/ezgif.com-gif-maker.gif);
+    height: fit-content;
+    width: fit-content;
+    height: 50px;
+    width: 100%;
+
+}
+
+.error {
+    animation: pop 10s;
+    margin-top: -325px;
+}
+
+p {
+    font-size: 70px;
+    text-align: center;
+    text-decoration: wavy;
+    color: deeppink;
+    font-family: 'Pacifico', cursive;
+}
+
+@keyframes pop {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(0);
+    }
+}
+
+.error:hover {
+    transform: scaleX(-1);
+    display: block;
+    height: 200px;
+    width: 10%;
+    size-adjust: 500px;
+}
+
+.glitch {
+    width: 100vw;
+    height: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+}

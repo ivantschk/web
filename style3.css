@@ -1,0 +1,84 @@
+body {
+  background-color: black;
+  
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(2deg);
+  }
+
+  10% {
+    transform: translate(-1px, -2px) rotate(-3deg);
+  }
+
+  20% {
+    transform: translate(-5px, 3px) rotate(3deg);
+  }
+
+  30% {
+    transform: translate(5px, 2px) rotate(7deg);
+  }
+
+  40% {
+    transform: translate(1px, -3px) rotate(3deg);
+  }
+
+  50% {
+    transform: translate(-1px, 2px) rotate(-3deg);
+  }
+
+  60% {
+    transform: translate(-5px, 3px) rotate(2deg);
+  }
+
+  70% {
+    transform: translate(5px, 2px) rotate(-3deg);
+  }
+
+  80% {
+    transform: translate(-3px, -3px) rotate(3deg);
+  }
+
+  90% {
+    transform: translate(5px, 5px) rotate(2deg);
+  }
+
+  100% {
+    transform: translate(7px, -5px) rotate(-3deg);
+  }
+}
+
+img.activahover :hover {
+ 
+  
+}
+
+.hover07 figure img {
+  -webkit-filter: blur(15px);
+  filter: blur(15px);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.hover07 figure:hover img {
+  -webkit-filter: blur(0);
+  filter: blur(0);
+  display: flex;
+  flex: 1;
+   animation: shake 0.5s;
+  animation-iteration-count: infinite;
+  display: flex;
+}
+.meligieron
+{
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+  display: flex;
+  filter: none !important;
+}
+.fila {
+  display: flex;
+  padding-right: 60vw;
+  
+}
